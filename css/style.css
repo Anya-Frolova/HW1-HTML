@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, aside, section, article, footer, div{
+    display: block;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper{
+    margin: 0px 122px;
+}
+header{
+    margin-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 122px;
+
+}
+#logo{
+    display: flex;
+    align-items: center;
+    background-image: url("../images/logo2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 64px;
+    width: 64px;
+    margin-right: 135px;
+}
+a {
+    text-decoration: none;
+}
+#logo span{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 93px; 
+    color: #3E3F43;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    gap: 64px;
+}
+nav a{
+    text-decoration: none;
+    color: #612999;
+    font-size: 30px;
+}
+nav a:hover{
+    color:#612999;
+    font-weight: bold;
+}
