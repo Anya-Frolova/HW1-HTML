@@ -173,16 +173,14 @@ main{
 }
 
 #first_image p {
-    margin-top: 16px; /* отступ сверху после h2 */
-    margin-left: 32px; /* отступ слева */
-    margin-right: 32px; /* справа тоже сделаем чтобы текст красиво обтекал */
-    margin-bottom: 32px; /* внизу */
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
     color: #000;
     text-align: justify;
     font-family: 'Courier New', Courier, monospace ;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: 140.625%;
     font-weight: bold;
 }
