@@ -426,3 +426,22 @@ main{
     background: #612999;
     backdrop-filter: blur(10px);
 }
+
+#last{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+#last h2{
+    color: #612999;
+    font-family:'Courier New', Courier, monospace  ;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#last img{
+    width: 100%;
+
+}
