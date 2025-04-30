@@ -258,8 +258,8 @@ main{
     right: 20px;
     background: white;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 47px;
+    height: 47px;
     border: none;
     display: flex;
     align-items: center;
@@ -269,8 +269,8 @@ main{
   }
 
   .icon-button.heart svg {
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 20px;
     color: #ff4b7d;
   }
 
@@ -282,8 +282,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 63px;
+    height: 63px;
     position: static;
     margin-left: auto;
     margin-right: 32px;
@@ -292,8 +292,8 @@ main{
   }
   
   .icon-button.cart svg {
-    width: 32px;
-    height: 32px;
+    width: 31px;
+    height: 31px;
     color: white;
   }
 
@@ -395,4 +395,34 @@ main{
     border: 4px solid #E6DBFE;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     object-fit: cover;
+}
+
+#slip-list{
+    padding: 32px;
+}
+
+#slip-list h2{
+    color: #612999;
+    font-family:'Courier New', Courier, monospace  ;
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.icon{
+    width: 82px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    border-radius: 46.5px;
+    background: #612999;
+    backdrop-filter: blur(10px);
 }
